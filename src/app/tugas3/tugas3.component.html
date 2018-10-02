@@ -1,0 +1,15 @@
+<p>
+  TUGAS 3 HESTI
+</p>
+<button
+ class ="btn btn-primary"
+(click)="onCreationStatus()">Tampilkan Detail</button>
+<br>{{tulisan}}
+
+<!-- <p>{{ serverCreationStatus }}</p> -->
+
+
+<p 
+[ngClass] = "{online: tugas > 4}"
+[ngStyle] = "{backgroundColor : tugas > 4 ? 'green' : 'transparan'}" 
+*ngFor="let tugas of log"> {{ tugas }}</p>
