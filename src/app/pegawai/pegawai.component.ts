@@ -15,7 +15,6 @@ export class PegawaiComponent implements OnInit {
   pegawai;
 
   constructor() { }
-
   ngOnInit() {
   }
 tambahPegawai(){
